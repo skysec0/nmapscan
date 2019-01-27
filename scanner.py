@@ -65,4 +65,4 @@ nma.scan(hosts='192.168.1.0/30', arguments='-sP', callback=callback_result)
 
 nm = nmap.PortScannerYield()
  for progressive_result in nm.scan('127.0.0.1/24', '22-25'):
-	print(progressive\_result)
+	print(progressive_result)
